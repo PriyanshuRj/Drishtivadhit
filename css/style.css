@@ -10427,9 +10427,22 @@ textarea.form-control {
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
   .upload-container{
     
     width:90%;
   }
+}
+.upload-file-submit{
+  border-radius: 4px;
+  border:none;
+  background-color: rgb(79, 202, 106);
+  color:white;
+}
+.upload-file-submit:hover{
+  background-color: rgb(39, 122, 57);
+}
+.input-select-file{
+  position: relative;
+  left:40px;
 }

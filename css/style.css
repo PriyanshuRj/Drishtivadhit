@@ -10329,8 +10329,8 @@ textarea.form-control {
   
   display:flex;
   
-  width:260px;
-  height:320px;
+  width:320px;
+  height:360px;
   justify-content:center;
   align-items:center;
   
@@ -10343,15 +10343,10 @@ textarea.form-control {
   
 }
 
-
-
-
 .login-box span.psw {
   float: right;
   padding-top: 16px;
 }
-
-
 
 .close-login-modal {
   position: absolute;
@@ -10385,4 +10380,15 @@ textarea.form-control {
 }
 .avatar{
   font-size:50px;
+}
+.modal-login-input .form label {
+  align-self: center;
+  margin: 0px;
+  margin-top: 16px;
+
+}
+.modal-login-input .form input {
+  margin-top: 0px;
+  height:50px;
+  padding-left: 10px;
 }

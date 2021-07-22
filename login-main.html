@@ -120,8 +120,11 @@
             <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar"> -->
             <div  class = "modal-login-input">
               <form action="submit" class = "form">
-                <input type="text" placeholder = "Email">
-                <input type="password" placeholder = "password" >
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" class = "login-input"required>
+          
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" class = "login-input"required>
                 <button class="btn btn-primary">Login</button>
               </form>
             </div>
@@ -148,11 +151,14 @@
         <div class=" animate modal-content modal-content-login">
           <span onclick="document.getElementById('myModal').style.display='none'" class="close-login-modal" title="Close Modal">&times;</span>
           <!-- <i class = "fas fa-chalkboard-teacher avatar"></i> -->
-          
+          <i class="fas fa-users avatar"></i>
           <div  class = "modal-login-input">
             <form action="submit" class = "form">
-              <input type="text" placeholder = "Email">
-              <input type="password" placeholder = "password" >
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+        
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
               <button class="btn btn-primary" >Login</button>
             </form>
           </div>

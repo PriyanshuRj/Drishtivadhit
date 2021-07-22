@@ -4814,7 +4814,7 @@ input[type="button"].btn-block {
   color: #000;
   text-shadow: 0 1px 0 #fff;
   opacity: .5; }
-  .close:hover {
+  .close {
     color: #000;
     text-decoration: none; }
   .close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
@@ -10309,19 +10309,39 @@ textarea.form-control {
   position: relative;
 }
 
-.modal {
+#myModal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-
+  left: 0;
+  top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   padding-top: 60px;
+  justify-content:center;
+  
+  align-items: center;
 }
-.login-box img.avatar {
+.modal-content-login{
+  width: 20%;
+  display:flex;
+  height:400px;
+  width:260px;
+  justify-content:center;
+  align-items:center;
+  
+}
+.modal-login-input{
+  width:80%;
+  justify-self: center;
+  align-self: center;
+  
+}
+
+img.avatar {
   width: 40%;
   border-radius: 50%;
 }
@@ -10331,14 +10351,9 @@ textarea.form-control {
   padding-top: 16px;
 }
 
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; 
-  border: 1px solid #888;
-  width: 80%; 
-}
 
-.login-box .close {
+
+.close-login-modal {
   position: absolute;
   right: 25px;
   top: 0;
@@ -10346,12 +10361,12 @@ textarea.form-control {
   font-size: 35px;
   font-weight: bold;
 }
-.login-box  .close:hover,
-.close:focus {
+.close-login-modal:hover,
+.close-login-modal:focus {
   color: red;
   cursor: pointer;
 }
-.login-box .animate {
+.animate {
   -webkit-animation: animatezoom 0.6s;
   animation: animatezoom 0.6s
 }
@@ -10364,13 +10379,7 @@ textarea.form-control {
   from {transform: scale(0)} 
   to {transform: scale(1)}
 }
-
-.login-btn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
+.modal-login-input > form > button {
+  background-color:green;
+  color:red;
 }

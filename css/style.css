@@ -10446,3 +10446,32 @@ textarea.form-control {
   position: relative;
   left:40px;
 }
+.box-donate{
+  border-radius:10px;
+  width:60%;
+  
+}
+@media screen and (max-width:600px){
+  .box-donate{
+    
+    width:100%;
+  }
+}
+.main-box-donate{
+  display:flex;
+  justify-content:center;
+  width:100%;
+  
+  align-items: center;
+  margin:left auto;
+  margin-right: auto;
+  
+
+}
+.box-donate-input{
+  display:flex;
+  margin:0;
+
+  align-items:center;
+  justify-items: center;
+}

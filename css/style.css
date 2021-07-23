@@ -10488,3 +10488,13 @@ textarea.form-control {
   
   margin:auto;
 }
+
+.document-image-design{
+  border-radius: 50px 50px 0px 0px;
+  
+}
+.news-design-style{
+  display:flex;
+  flex-grow: none;
+  
+}

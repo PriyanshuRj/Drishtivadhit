@@ -10475,3 +10475,6 @@ textarea.form-control {
   align-items:center;
   justify-items: center;
 }
+.apps-active{
+  color:rgb(199, 185, 63);
+}

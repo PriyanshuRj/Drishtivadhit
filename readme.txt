@@ -8,3 +8,4 @@ members-page
 news
 other-employ
 teacher-page
+view-document

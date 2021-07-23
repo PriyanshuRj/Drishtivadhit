@@ -10478,3 +10478,13 @@ textarea.form-control {
 .apps-active{
   color:rgb(199, 185, 63);
 }
+.founding-member{
+  color: grey;
+  font-weight:800;
+  font-size: 25px;
+  
+}
+.card-member-login-box{
+  
+  margin:auto;
+}

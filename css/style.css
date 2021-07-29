@@ -4,6 +4,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10508,5 +10509,14 @@ textarea.form-control {
   top: 13px;
 }
 .hindi-subheading{
-  color:pink;
+font-size: 25px;
+/* font-family: 'Noto Sans', sans-serif; */
 }
+.hindi-button{
+  font-size:22px;
+  font-family: 'Noto Sans', sans-serif;
+}
+  .hindi-heading-small{
+    font-size: 32px;
+    font-weight: 550;
+  }

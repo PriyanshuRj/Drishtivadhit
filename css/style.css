@@ -10520,3 +10520,17 @@ font-size: 25px;
     font-size: 32px;
     font-weight: 550;
   }
+
+
+.form-text-box{
+  height: 200px;
+  padding-top: 0px;
+}
+.form-text-box {
+  display:flex;
+  align-items:start;
+
+
+}
+
+

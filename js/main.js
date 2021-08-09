@@ -207,4 +207,21 @@
 	$('.appointment_time').timepicker();
 
 })(jQuery);
+var languagecontroler = document.getElementById('hindi-english-toggle');
+languagecontroler.addEventListener('change', function(e){
+	// var condition = (languagecontroler.checked) ? console.log('hello') : console.log('bye');
+	
+	if(languagecontroler.checked){
+		console.log('english');
+		location.replace('../index.html');
+	}
+		
+	else{
+		console.log('hindi');
+		location.replace('/hindi-pages/index-hindi.html');
+	
+		
+	}
+})
+
 

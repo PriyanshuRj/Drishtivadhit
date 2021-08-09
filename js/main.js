@@ -218,7 +218,7 @@ languagecontroler.addEventListener('change', function(e){
 		
 	else{
 		console.log('hindi');
-		location.replace('/hindi-pages/index-hindi.html');
+		location.replace('/index-hindi.html');
 	
 		
 	}

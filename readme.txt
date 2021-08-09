@@ -9,3 +9,4 @@ news
 other-employ
 teacher-page
 view-document
+view-Profile

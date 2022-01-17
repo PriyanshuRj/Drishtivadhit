@@ -9,5 +9,6 @@
  - AUTH
  - File upload and download
  - Responsive Design
-
+## Tech Stack
+ - This project uses HTML, CSS, SCSS and JS
 

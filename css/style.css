@@ -10558,6 +10558,11 @@ font-size: 25px;
  display:flex;
   justify-content:center;
   width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
   align-items: center;
   margin:left auto;
   margin-right: auto;
@@ -10573,6 +10578,21 @@ font-size: 25px;
   border-radius:20px;
   background-color:rgb(241, 241, 241);
   flex-direction:column;
+  margin-left: auto;
+  margin-right: auto;
+  height:550px;
+  border: 4px dashed rgb(100, 185, 255);
+  border-radius:20px;
   align-items: center;
 }
-
+.footer-base{
+  display:flex;
+   color:white;
+  font-weight: 550;
+  height: inherit;
+  width:inherit;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  
+}
